@@ -1,0 +1,141 @@
+@media (max-width:1100px) {
+    .navigation{
+        padding: 0px 30px;
+    }
+    .nav-links{
+        visibility: hidden;
+        height: 5px;
+    }
+    .main-content{
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 
+        'coffee-banner0 coffee-banner1';
+        padding:0px 30px;
+    }    
+    .main-content h1{
+        font-size: 4rem;
+        color: rgb(58, 58, 58);
+    }
+    .products{
+        margin: 0px 30px;
+    }
+    .top-product{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "img"
+        "description"
+        ;
+    }
+    .description button{
+        float: right;
+    }
+    .cards{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .product1{
+        width: 90%;
+    }
+    .product1 img{
+        width: 70%;
+        height: 100%;
+
+    }
+}
+@media (max-width:740px) {
+    .navigation{
+        padding: 0px 30px;
+    }
+    .nav-links{
+        visibility: hidden;
+        height: 5px;
+    }
+    .main-content{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'coffee-banner1'
+        'coffee-banner0';
+        padding:0px 30px;
+    }    
+    .main-content h1{
+        font-size: 4rem;
+        color: rgb(58, 58, 58);
+    }
+    .products{
+        margin: 0px 30px;
+    }
+    .top-product{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "img"
+        "description"
+        ;
+    }
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .product1{
+        width: 90%;
+    }
+    .product1 img{
+        width: 70%;
+        height: 100%;
+
+    }
+}
+
+@media (max-width:510px) {
+    .navigation{
+        padding: 0px 30px;
+    }
+    .nav-links{
+        visibility: hidden;
+        height: 5px;
+    }
+    .main-content{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        'coffee-banner1'
+        'coffee-banner0';
+        padding:0px 30px;
+    }    
+    .main-content h1{
+        font-size: 3.5rem;
+        color: rgb(58, 58, 58);
+        margin-left: 0.9rem;
+    }
+    .main-content h2 {
+        font-size: 1rem;
+    }
+    .main-content p{
+        font-size: 1rem;
+    }
+    .products{
+        margin: 0px 30px;
+    }
+    .top-product{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "img"
+        "description"
+        ;
+    }
+    .cards{
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .product1{
+        width: 80%;
+    }
+    .card{
+        width: 90%;
+    }
+    .product1 img{
+        width: 70%;
+        height: 100%;
+    }
+}
+

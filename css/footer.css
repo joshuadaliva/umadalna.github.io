@@ -1,0 +1,93 @@
+/* Main footer */
+.footer{
+    margin-top: 8rem;
+    background: linear-gradient(109.6deg, rgb(157, 75, 199) 11.2%, rgb(119, 81, 204) 83.1%);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 80px;
+}
+/* item for each div use to align equally */
+.item{
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.item:nth-child(even){
+    padding: 5px 0px;
+}
+.item:nth-child(3){
+    padding: 5px 0px;
+}
+.item:nth-child(5){
+    max-width: 100%;
+}
+.footer p {
+    color: white;
+    font-size: 15px;
+    color: rgb(240, 239, 239);
+}
+.footer div{
+    color: white;
+}
+
+/* umadal na header */
+.header-for-footer{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.header-for-footer img{
+    max-width: 40px;
+    max-height: 30px;
+}
+.margin-header-footer{
+    margin-right: 70px;
+}
+.footer h2, h3{
+    color: white;
+}
+
+
+/* footer links */
+.footer-links li, a{
+    list-style-type: none;
+    margin-top: 10px;
+    color: rgb(240, 239, 239);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+/* social-media footer */
+.input-container {
+    position: relative;
+    display: inline-block;
+}
+  
+.input-container button {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    right: 5px;
+    max-height: 100%;
+    padding: 5px 16px;
+    background: linear-gradient(109.6deg, rgb(157, 75, 199) 11.2%, rgb(119, 81, 204) 83.1%);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }  
+#email-address{
+    padding: 10px 30px;
+    font-size: 12px;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.social-media-links{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.social-media-links img{
+    width: 40px;
+    height: 40px;
+}
