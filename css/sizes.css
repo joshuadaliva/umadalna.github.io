@@ -16,32 +16,11 @@
         font-size: 4rem;
         color: rgb(58, 58, 58);
     }
-    .products{
-        margin: 0px 30px;
-    }
-    .top-product{
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "img"
-        "description"
-        ;
-    }
-    .description button{
-        float: right;
-    }
-    .cards{
+    .Courses{
         grid-template-columns: repeat(3,1fr);
     }
-    .product1{
-        width: 90%;
-    }
-    .product1 img{
-        width: 70%;
-        height: 100%;
-
-    }
 }
-@media (max-width:740px) {
+@media (max-width:790px) {
     .navigation{
         padding: 0px 30px;
     }
@@ -60,30 +39,15 @@
         font-size: 4rem;
         color: rgb(58, 58, 58);
     }
-    .products{
-        margin: 0px 30px;
-    }
     .top-product{
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-        "img"
-        "description"
-        ;
-    }
-    .cards{
         grid-template-columns: repeat(2, 1fr);
     }
-    .product1{
-        width: 90%;
-    }
-    .product1 img{
-        width: 70%;
-        height: 100%;
-
+    .Courses{
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
-@media (max-width:510px) {
+@media (max-width:610px) {
     .navigation{
         padding: 0px 30px;
     }
@@ -109,33 +73,11 @@
     .main-content p{
         font-size: 1rem;
     }
-    .products{
-        margin: 0px 30px;
-    }
     .top-product{
         grid-template-columns: 1fr;
-        grid-template-areas: 
-        "img"
-        "description"
-        ;
     }
-    .cards{
-        grid-template-columns: 1fr;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 0px;
+    .Courses{
+        grid-template-columns: repeat(1,1fr);
     }
-    .product1{
-        width: 80%;
-    }
-    .card{
-        width: 90%;
-    }
-    .product1 img{
-        width: 70%;
-        height: 100%;
-    }
-}
 
+}

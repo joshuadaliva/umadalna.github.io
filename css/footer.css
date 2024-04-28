@@ -20,6 +20,7 @@
 }
 .item:nth-child(5){
     max-width: 100%;
+    flex-grow: 1;
 }
 .footer p {
     color: white;
@@ -60,16 +61,16 @@
 /* social-media footer */
 .input-container {
     position: relative;
-    display: inline-block;
+    display: inline;
 }
   
 .input-container button {
     position: absolute;
-    right: 0;
-    top: 5px;
-    right: 5px;
-    max-height: 100%;
-    padding: 5px 16px;
+    top: -3px;
+    right: 2px;
+    height: 30px;
+    padding:  0 16px;
+    margin-right: 15px;
     background: linear-gradient(109.6deg, rgb(157, 75, 199) 11.2%, rgb(119, 81, 204) 83.1%);
     color: #fff;
     border-radius: 5px;
