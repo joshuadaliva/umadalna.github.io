@@ -22,7 +22,7 @@ html, body{
     justify-content: space-between;
     flex-wrap: wrap;
     box-shadow: var(--box-shadow);
-    padding: 10px 70px; 
+    padding: 10px 70px;
 }
 .logo-img-description{
     display: flex;
@@ -153,6 +153,11 @@ html, body{
 }
 .items h2{
     font-size: 20px;
+}
+.rating{
+    max-width: 50%;
+    height: auto;
+
 }
 
 .choices{
