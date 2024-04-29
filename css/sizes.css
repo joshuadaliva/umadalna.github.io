@@ -43,7 +43,7 @@
         color: rgb(58, 58, 58);
     }
     .products{
-        margin: 0px 30px;
+        margin: 10rem 20px;
     }
     .top-product{
         grid-template-columns: repeat(2, 1fr);
@@ -51,6 +51,7 @@
     .Courses{
         grid-template-columns: repeat(2,1fr);
     }
+    
 }
 
 @media (max-width:610px) {
@@ -63,6 +64,17 @@
     }
     .nav-bar{
         padding: 10px 20px;
+    }
+    .logo-img-description{
+        padding: 0;
+        margin: 0;
+    }
+    .logo-img-description h1{
+        font-size: 20px;
+    }
+    .logo-img-description img{
+        width: 30%;
+        height: auto;
     }
     .main-content{
         grid-template-columns: 1fr;
@@ -82,14 +94,20 @@
     .main-content p{
         font-size: 1rem;
     }
+    .coffee-banner1{
+        visibility: unset;
+    }
     .products{
-        margin: 0px 20px;
+        margin: 10rem 20px;
     }
     .top-product{
         grid-template-columns: 1fr;
     }
     .Courses{
         grid-template-columns: repeat(1,1fr);
+    }
+    .course-card h1{
+        font-size: 17px;
     }
 
 }

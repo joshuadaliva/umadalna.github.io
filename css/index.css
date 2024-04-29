@@ -27,8 +27,7 @@ html, body{
 .logo-img-description{
     display: flex;
     align-items: center;
-    gap: 20px;
-    font-size: 1.4rem;
+    gap: 10px;
     color: var(--text-color);
 }
 .nav-links{
@@ -132,6 +131,7 @@ html, body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-evenly;
     gap: 10px;
 }
 .items p{
@@ -139,7 +139,8 @@ html, body{
     text-align: center;
 }
 .items img{
-    max-width: 50%;
+    max-width: 40%;
+    height: auto;
 }
 .items div{
     display: flex;
@@ -152,7 +153,7 @@ html, body{
     color: var(--btn-color);
 }
 .items h2{
-    font-size: 20px;
+    font-size: 17px;
 }
 .rating{
     max-width: 50%;
@@ -202,6 +203,9 @@ html, body{
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .course-card img{
     width: 100%;
