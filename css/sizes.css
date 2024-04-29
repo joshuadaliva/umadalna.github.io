@@ -54,9 +54,15 @@
         grid-template-columns: repeat(2, 1fr);
     }
     .Courses{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
     }
-    
+    .contact-us{
+        padding: 0px 20px;
+    }
+    #message{
+        height: 12vh;
+    }
+
 }
 @media (max-width:720px) {
     .top-instructor{
@@ -74,6 +80,13 @@
     #message{
         height: 20vh;
     }
+    .contact-us{
+        padding: 0px 20px;
+    }
+    .Courses{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
 }
 @media (max-width:610px) {
     
@@ -143,13 +156,17 @@
         padding: 0px 10px;
     }
     .category-name{
-        padding: 0px 20px;
+        padding: 0;
+        margin: 1rem -0.4rem;
     }
+    
+   
 @media (max-width:580px){
     .top-instructor{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
-}
+    }
+    
 
 }}
