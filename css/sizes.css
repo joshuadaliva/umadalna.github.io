@@ -19,6 +19,11 @@
     .Courses{
         grid-template-columns: repeat(3,1fr);
     }
+    .top-instructor{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
 }
 @media (max-width:1070px) {
     .navigation{
@@ -53,8 +58,25 @@
     }
     
 }
-
+@media (max-width:720px) {
+    .top-instructor{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .contact-us{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: 'contact1 ''contact2';
+        padding: 0px 50px;
+        margin-top: -1rem;
+    }
+    #message{
+        height: 20vh;
+    }
+}
 @media (max-width:610px) {
+    
     .navigation{
         padding: 0px 30px;
     }
@@ -100,14 +122,34 @@
     .products{
         margin: 10rem 20px;
     }
+    .products h1{
+        padding: 0px 20px;
+    }
     .top-product{
         grid-template-columns: 1fr;
+        padding: 0px 10px;
     }
     .Courses{
         grid-template-columns: repeat(1,1fr);
+        padding: 0px 10px;
     }
     .course-card h1{
         font-size: 17px;
     }
-
+    .top-instructor{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 0px 10px;
+    }
+    .category-name{
+        padding: 0px 20px;
+    }
+@media (max-width:580px){
+    .top-instructor{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
 }
+
+}}
