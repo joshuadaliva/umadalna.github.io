@@ -62,7 +62,28 @@
     #message{
         height: 12vh;
     }
+    .sections{
+        padding: 0px 50px;
+    }
 
+
+}
+@media (max-width:970px) {
+    .sections{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'section1'
+        'section3'
+        'section4'
+        'section5'
+        'section2'
+        ;
+        gap: 30px;
+    }
+    .sections{
+        padding: 0px 40px;
+    }
 }
 @media (max-width:720px) {
     .top-instructor{
@@ -85,6 +106,9 @@
     }
     .Courses{
         grid-template-columns: repeat(2,1fr);
+    }
+    .sections{
+        padding: 0px 50px;
     }
     
 }
@@ -159,6 +183,9 @@
         padding: 0;
         margin: 1rem -0.4rem;
     }
+    .sections{
+        padding: 0px 20px;
+    }
     
    
 @media (max-width:580px){
@@ -167,6 +194,8 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
-    
+    .sections{
+        padding: 0px 10px;
+    }
 
 }}
