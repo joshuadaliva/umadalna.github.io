@@ -1,3 +1,9 @@
+:root{
+    --background-color:rgb(250,250,250);
+    --text-color:rgb(89,89,89);
+    --btn-color:rgb(108,100,245);
+    --box-shadow: box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
 .nav-bar{
     display: flex;
     background-color: white;
@@ -11,6 +17,8 @@
     align-items: center;
     gap: 10px;
     color: var(--text-color);
+    justify-content: center;
+    align-items: center;
 }
 .nav-links{
     display: flex;
@@ -39,4 +47,16 @@
     color: var(--text-color);
     font-size: 1rem;
     margin-left: 6rem;
+}
+@media (max-width:550px) {
+    .logo-img-description {
+        margin-left: -3rem;
+    }
+    .nav-bar{
+        height: 50px;
+        align-items: center;
+    }
+    .logo-img-description img{
+        width: 20%;
+    }
 }

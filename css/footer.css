@@ -1,7 +1,7 @@
 /* Main footer */
 .footer{
     margin-top: 8rem;
-    background: linear-gradient(109.6deg, rgb(157, 75, 199) 11.2%, rgb(119, 81, 204) 83.1%);
+    background: rgb(108,100,245);
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

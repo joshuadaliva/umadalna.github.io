@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins-medium;
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url(fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: 'poppins-regular';
+    src: url(fonts/Poppins-Regular.ttf);
+}
+body{
+    width: 100%;
+    background-color: rgb(250,250,250);
+}
+
+#head{ 
+    margin: 50px 60px;
+}
+#sub{
+    margin: 0 70px 30px;
+}
+.sentence{
+    margin: 0 70px 25px;
+}
+#text{
+    text-align: justify;
+    font-family: poppins-regular;
+}
+.con{
+    margin: 0 70px 10px;
+}
+#collect{
+    margin: 0 0 25px;
+}
+.num1{
+    margin: 0 0 20px;
+}
+#email{
+    display: inline;
+    margin: 0 20px 20px;
+}
+.num1 p{
+    margin: 25px 0 40px 80px;
+    text-align: justify;
+    line-height: 1.6;
+    font-family: poppins-regular;
+}
+.num2{
+    margin: 0 0 20px;
+}
+#cookies{
+    display: inline;
+    margin: 0 20px 20px;
+}
+.num2 p{
+    margin: 25px 0 40px 80px;
+    text-align: justify;
+    line-height: 1.6;
+    font-family: poppins-regular;
+}
+.btn-box{
+    text-align: right;
+    padding: 20px;
+    margin: 0 70px 20px auto;
+}
+#dec{
+    padding: 5px 40px;
+    border-radius: 7px;
+    margin: 0 7px 20px;
+    font-size: 16px;
+    background-color: #fff;
+}
+#acc{
+    padding: 5px 40px;
+    border-radius: 7px;
+    margin: 0 7px 20px;
+    font-size: 16px;
+    background-color: rgb(108,100,245);
+    color: #fff;
+    border: none;
+}
+@media (max-width:800px) {
+    #head{ 
+        margin: 50px 30px;
+    }
+    #sub{
+        margin: 0 70px 30px;
+    }
+    .con{
+        margin: 0 30px 10px;
+    }
+    #collect{
+        margin: 0 0 25px;
+    }
+    .num1{
+        margin: 0 0 20px;
+    }
+    #email{
+        display: inline;
+        margin: 0 20px 20px;
+    }
+    .num1 p{
+        margin: 25px 0 40px 30px;
+        text-align: justify;
+        line-height: 1.6;
+        font-family: poppins-regular;
+    }
+    .num2{
+        margin: 0 0 20px;
+    }
+    #cookies{
+        display: inline;
+        margin: 0 20px 20px;
+    }
+    .num2 p{
+        margin: 25px 0 40px 30px;
+        text-align: justify;
+        line-height: 1.6;
+        font-family: poppins-regular;
+    }
+    .btn-box{
+
+        margin: 0 30px 20px auto;
+    }
+    #dec{
+        padding: 5px 30px;
+    }
+    #acc{
+        padding: 5px 30px;
+    }
+}

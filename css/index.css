@@ -24,15 +24,25 @@ html, body{
     grid-template-areas: 'coffee-banner0 coffee-banner1';
     margin-top: 5rem;
     padding:0px 40px;
+    gap: 20px;
 }
 .coffee-banner0{
     grid-area: coffee-banner0;
-    margin-top: 6rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    height: 100%;
+
+}
+.coffee-banner0 h1{
+    display: flex;
+    line-height: 1;
+    flex-wrap: wrap;
 }
 .coffee-banner1{
     grid-area: coffee-banner1;
+    max-width: 100%;
+    height: auto;
 }
 .main-content h1{
     font-size: 3rem;
@@ -41,6 +51,7 @@ html, body{
 }
 .main-content p{
     padding: 1rem 9px;
+
 }
 .main-content button{
     margin: 0px 10px;

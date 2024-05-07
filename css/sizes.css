@@ -7,15 +7,12 @@
         height: 5px;
     }
     .main-content{
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas: 
         'coffee-banner0 coffee-banner1';
         padding:0px 30px;
-    }    
-    .main-content h1{
-        font-size: 4rem;
-        color: rgb(58, 58, 58);
-    }
+    }  
+    
     .Courses{
         grid-template-columns: repeat(3,1fr);
     }
@@ -25,7 +22,7 @@
         gap: 20px;
     }
 }
-@media (max-width:1070px) {
+@media (max-width:1168px) {
     .navigation{
         padding: 0px 30px;
     }
@@ -37,15 +34,14 @@
         padding: 10px 30px;
     }
     .main-content{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         grid-template-areas: 
-        'coffee-banner1'
-        'coffee-banner0';
+        'coffee-banner0 coffee-banner1';
         padding:0px 30px;
-    }    
+    } 
     .main-content h1{
-        font-size: 4rem;
-        color: rgb(58, 58, 58);
+        font-size: 2.3rem;
+        line-height: 1.5;
     }
     .products{
         margin: 10rem 20px;
@@ -85,6 +81,15 @@
         padding: 0px 40px;
     }
 }
+@media (max-width:940px){
+    .coffee-banner0 h1{
+        font-size: 2rem;
+        line-height: 1.4;
+    }
+    .coffee-banner1{
+        max-width: 50%;
+    }
+}
 @media (max-width:720px) {
     .top-instructor{
         display: grid;
@@ -109,6 +114,15 @@
     }
     .sections{
         padding: 0px 50px;
+    }
+    .coffee-banner0 h1{
+        font-size: 1.6rem;
+    }
+    .coffee-banner0 p{
+        margin-left: -10px;
+    }
+    .btn1{
+        margin-left: -10px;
     }
     
 }
@@ -143,18 +157,19 @@
         padding:0px 30px;
     }    
     .main-content h1{
-        font-size: 3.5rem;
+        font-size: 3.1rem;
         color: rgb(58, 58, 58);
         margin-left: 0.9rem;
     }
     .main-content h2 {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
     .main-content p{
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
+
     .coffee-banner1{
-        visibility: unset;
+        padding: 30px;
     }
     .products{
         margin: 10rem 20px;
@@ -188,7 +203,49 @@
     }
     
    
-@media (max-width:580px){
+@media (max-width:610px){
+    .top-instructor{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .sections{
+        padding: 0px 10px;
+    }
+    .main-content h1{
+        text-align: center;
+
+    }
+    .coffee-banner0 h1{
+        font-size: 2.5rem;
+    }
+    .coffee-banner0 p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .coffee-banner0{
+        display: flex;
+        align-items: center;
+    }
+    .btn1{
+        margin-top: 1rem;
+    }
+    .products{
+        margin-top: 5rem;
+    }
+    .Courses{
+        grid-template-columns: repeat(2,1fr);
+        padding: 0px 10px;
+    }
+    .course-card h1{
+        font-size: 17px;
+    }
+    .top-product{
+        grid-template-columns: 1fr 1fr;
+        padding: 0px 10px;
+    }
+}
+@media (max-width:550px){
     .top-instructor{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -197,5 +254,43 @@
     .sections{
         padding: 0px 10px;
     }
+    .main-content h1{
+        text-align: center;
 
-}}
+    }
+    .main-content p{
+        font-size: 15px;
+    }
+    .coffee-banner0{
+        display: flex;
+        align-items: center;
+    }
+    .btn1{
+        margin-top: 1rem;
+    }
+    .products{
+        margin-top: 5rem;
+    }
+    .Courses{
+        grid-template-columns: repeat(1,1fr);
+        padding: 0px 10px;
+    }
+    .course-card h1{
+        font-size: 17px;
+    }
+    .top-product{
+        grid-template-columns: 1fr;
+        padding: 0px 10px;
+    }
+    .coffee-banner0 h1{
+        font-size: 1.6rem;
+    }
+    .coffee-banner0 p{
+        font-size: 12px;
+    }
+    .main-content {
+        margin-top: 0;
+    }
+}
+
+}
