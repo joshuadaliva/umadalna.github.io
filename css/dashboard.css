@@ -69,9 +69,8 @@ html, body{
 }
 .section1 img{
     width: 50%;
-    height: 90%;
-    padding: 30px;
-
+    height: auto;
+    padding: 50px;
 }
 .section1 button{
     padding: 5px 10px;
@@ -166,6 +165,10 @@ html, body{
     width: 100%;
     align-items: center;
 }
+.course-info img{
+    display: flex;
+    max-width: 100% ;
+}
 .course-info h2{
     color: var(--text-color);
 }
@@ -179,4 +182,56 @@ html, body{
     background-color: var(--btn-color);
     color: white;
     border-radius: 5px;
+}
+@media (max-width:665px) {
+    .section1{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 'container-2' 'container-1';
+    }
+    .container-1{
+        grid-area: container-1;
+    }
+    .container-2{
+        grid-area: container-2;
+        display: flex;
+
+    }
+    .section3 {
+        display: grid;
+    }
+    .elipses{
+        visibility:hidden ;
+    }
+    .section4{
+        display: grid;
+    }
+    .section1 img{
+        width: 100%;
+        height: auto;
+        padding: 50px;
+    }
+    .section1 h1{
+        font-size: 100%;
+        margin: 10px;
+    }
+    .section2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .course-teach{
+        visibility: hidden;
+    }
+    .ratings{
+        visibility: hidden;
+    }
+    .section2{
+        max-height: 70%;
+    }
+    @media (max-width:282px) {
+        .section2{
+            display: flex;
+            flex-wrap: nowrap;
+        }
+    }
 }
