@@ -1,0 +1,62 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: poppins-medium;
+    color: var(--text-color);
+}
+:root{
+    --background-color:rgb(250,250,250);
+    --text-color:rgb(89,89,89);
+    --btn-color:rgb(108,100,245);
+    --box-shadow: box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+html, body{
+    height: 100%;
+    background-color: var(--background-color);
+}
+.signup-card{
+    display: grid;
+    place-content: center;
+    margin-top: 10rem;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+.sign1{
+    padding: 50px;
+    background-color: rgb(234, 239, 252);
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.contact1 img{
+    max-width: 70%;
+    height: auto;
+}
+.sign2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.sign2 input{
+    padding: 10px;
+    width: 100%;
+}
+
+#message{
+    height: 25vh;
+}
+.sign2 button{
+    padding: 8px;
+    background-color: var(--btn-color);
+    color: white;
+    border: none;
+}
+
+
