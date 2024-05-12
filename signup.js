@@ -3,11 +3,7 @@ document.getElementById("signupDetails").addEventListener("click", putDetails);
 
 let username, email, password;
 
-window.signupDetails = {
-    username: username,
-    email: email,
-    password: password
-};
+
 
 // Function to access HTML
 function accessHTML() {
@@ -43,7 +39,12 @@ function putDetails(){
     else{
         username = document.getElementById('name').value;
         email = document.getElementById('email').value;
-        password = document.getElementById('password').value;
+        const hashedUserInput = sha256(password = document.getElementById('password').value);
+        localStorage.setItem('username', username);
+        localStorage.setItem('email', email);
+        localStorage.setItem('password' , hashedUserInput)
+
+
         let timerInterval;
         Swal.fire({
         title: "Sign up Success",
