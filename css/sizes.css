@@ -61,6 +61,9 @@
     .sections{
         padding: 0px 50px;
     }
+    .signup-card{
+        padding: 0px 80px ;
+    }
 
 
 }
@@ -109,6 +112,11 @@
     .contact-us{
         padding: 0px 20px;
     }
+    .signup-card{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 'sign1' 'sign2';
+    }
     .Courses{
         grid-template-columns: repeat(2,1fr);
     }
@@ -124,6 +132,7 @@
     .btn1{
         margin-left: -10px;
     }
+    
     
 }
 @media (max-width:610px) {
@@ -201,6 +210,9 @@
     .sections{
         padding: 0px 20px;
     }
+    .signup-card{
+        padding: 0px 50px;
+    }
     
    
 @media (max-width:610px){
@@ -243,6 +255,9 @@
     .top-product{
         grid-template-columns: 1fr 1fr;
         padding: 0px 10px;
+    }
+    .signup-card{
+        padding: 0px 20px;
     }
 }
 @media (max-width:550px){

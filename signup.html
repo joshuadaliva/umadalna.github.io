@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>signup</title>
+    <link rel="stylesheet" href="css/signup.css">
+    <link rel="stylesheet" href="css/sizes.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/nav-bar.css">
-    <link rel="stylesheet" href="css/sizes.css">
     <link rel="stylesheet" href="css/utilities.css">
-    <link rel="stylesheet" href="css/signup.css">
 </head>
 <body>
     <nav class="nav-bar">
@@ -29,7 +29,7 @@
 
 
     
-    <div class="signup-card preferred-padding">
+    <div class="signup-card">
         <div class="sign1">
             <img src="images/contact.png" alt="">
         </div>
@@ -37,7 +37,7 @@
             <h2>Sign Up</h2>
             <div>
                 <label for="text">Enter your Name:</label><br>
-                <input type="text" placeholder="Enter your email address" id="name" required ><br>
+                <input type="text" placeholder="Enter your Full Name" id="name" required ><br>
             </div>
             <div>
                 <label for="email">Your Email:</label><br>
@@ -45,9 +45,9 @@
             </div>
             <div>
                 <label for="password">Your Password:</label><br>
-                <input type="password" placeholder="Enter your email address" id="password" required ><br>
+                <input type="password" placeholder="Enter your Password" id="password" required ><br>
             </div>
-            <button id="signupDetails">Send Now</button>
+            <button id="signupDetails">Sign Up</button>
         </div>
     </div>
 
@@ -110,5 +110,6 @@
         
     </footer>
     <script src="signup.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
