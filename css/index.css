@@ -17,6 +17,34 @@ html, body{
 }
 
 
+button{
+    
+	display: inline-block;
+	transition-duration: .3s;
+	transition-property: transform;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	&:hover {
+        cursor: pointer;
+		transform: scale(.9);
+	}
+}
+
+.hover-this{
+    display: inline-block;
+	transition-duration: .3s;
+	transition-property: transform;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    transform: translateX(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	&:hover {
+        cursor: pointer;
+		transform: scale(0.9);
+	}
+}
+
+
 /*main-content*/
 .main-content{
     display: grid;

@@ -15,6 +15,19 @@ html, body{
     height: 100%;
     background-color: var(--background-color);
 }
+button{
+    
+	display: inline-block;
+	transition-duration: .3s;
+	transition-property: transform;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	&:hover {
+        cursor: pointer;
+		transform: scale(.9);
+	}
+}
 .sections{
     margin-top: 2rem;
     display: grid;

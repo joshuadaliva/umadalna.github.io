@@ -3,7 +3,19 @@
     padding: 0;
     font-family: poppins-medium;
 }
-
+button{
+    
+	display: inline-block;
+	transition-duration: .3s;
+	transition-property: transform;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	&:hover {
+        cursor: pointer;
+		transform: scale(.9);
+	}
+}
 @font-face {
     font-family: 'poppins-medium';
     src: url(fonts/Poppins-Medium.ttf);
