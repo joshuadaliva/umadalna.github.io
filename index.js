@@ -17,6 +17,7 @@ if (localStorage.getItem('loginStatus')) {
     function gotodashboard(){
         window.location.href = 'dashboard.html';
     }
+    document.getElementById("getstarted").disabled = true;
 }
 
 
