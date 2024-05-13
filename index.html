@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce Entry Daliva</title>
+    <title>Umadal na</title>
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/sizes.css">
@@ -24,7 +24,7 @@
                 <li><a href="">About</a></li>   
                 <li><a href="#instructor">Instructors</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><button>Login</button></li>
+                <li><button id="loginPage">Login</button></li>
                 <li><button id="signup">Sign Up</button></li>
             </ul>
         </nav>
@@ -38,7 +38,7 @@
                     <p>Signup now and explore the courses that can enhance your <br> skills and develop your critical thinking skills.</p>
                     <div class="btn1">
                         <button class="btn3 preferred-border-radius"><a href="#products" style="color: rgb(89,89,89);">Explore</a></button>
-                        <button class="btn2 preferred-border-radius">Get Started</button>
+                        <button class="btn2 preferred-border-radius" id="getstarted">Get Started</button>
                     </div>
                 </div>
                 <img src="images/main1.png" alt="" class="coffee-banner1">
@@ -49,8 +49,8 @@
             <div class="products" id="products">
                 <h1 class="category-name">Trending Categories</h1>
                 <div class="top-product">
-                    <div class="items hover-this">
-                        <img src="images/designing_app.png" alt="" >
+                    <div class="items hover-this ">
+                        <img src="images/designing_app.png " alt="" >
                         <h2>DESIGNING APP</h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet autem ea esse, modi similique illo dolorum. Error ex pariatur consequatur?</p>
                         <div>
@@ -121,15 +121,15 @@
 
 
                 <div class="choices" id="choices">
-                    <button>Trending Course</button><button>AI COURSE</button><button>EDITING COURSE</button><button>PROGRAMMING</button><button>DESIGNING COURSE</button>
+                    <button id="showall">All Courses</button><button id="aibtn">AI COURSE</button><button id="editbtn">EDITING COURSE</button><button id="programmingbtn">PROGRAMMING</button><button id="designbtn">DESIGNING COURSE</button>
                 </div>
                 <div class="category-name">
                     <h1 class="h1-font-2rem">Top Courses</h1>
                     <h1 class="h1-font-2rem"><a href="">View All ... </a></h1>
                 </div>
                 <div class="Courses">
-                    <div class="course-card hover-this">
-                        <img src="images/course1.png" alt="">
+                    <div class="course-card hover-this" id="msware">
+                        <img src="images/excel.jpg" alt="">
                         <p class="padding-for-course-card label-course-color">Microsoft Software</p>
                         <h1>Advance MS Excel VBA for Beginners to Advanced</h1>
                         <p class="padding-for-course-card description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, velit.</p>
@@ -147,8 +147,8 @@
                         </div>
                     </div>
 
-                    <div class="course-card hover-this">
-                        <img src="images/course2.png" alt="">
+                    <div class="course-card hover-this" id="design">
+                        <img src="images/canva1.jpg" alt="">
                         <p class="padding-for-course-card label-course-color">DESIGNING APP</p>
                         <h1>Canva For Beginners: Create Stunning Design</h1>
                         <p class="padding-for-course-card description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, velit.</p>
@@ -166,8 +166,8 @@
                         </div>
                     </div>
 
-                    <div class="course-card hover-this">
-                        <img src="images/course3.png" alt="">
+                    <div class="course-card hover-this" id="business">
+                        <img src="images/excel2.webp" alt="">
                         <p class="padding-for-course-card label-course-color">BUSINESS SOFTWARE</p>
                         <h1>Microsoft Excel Software Fundamentals</h1>
                         <p class="padding-for-course-card description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, velit.</p>
@@ -185,8 +185,8 @@
                         </div>
                     </div>
 
-                    <div class="course-card hover-this">
-                        <img src="images/course4.png" alt="">
+                    <div class="course-card hover-this" id="editing">
+                        <img src="images/photoshop.jpg" alt="">
                         <p class="padding-for-course-card label-course-color">EDITING SOFTWARE</p>
                         <h1>Adobe PhotoShop CC: Social Media Ads</h1>
                         <p class="padding-for-course-card description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, velit.</p>
@@ -214,10 +214,10 @@
                     <h1 class="h1-font-2rem"><a href="">View All ... </a></h1>
                 </div>
                 <div class="Courses">
-                    <div class="course-card hover-this">
-                        <img src="images/course5.png" alt="">
-                        <p class="padding-for-course-card label-course-color">Microsoft Software</p>
-                        <h1>Advance MS Excel VBA for Beginners to Advanced</h1>
+                    <div class="course-card hover-this" id="programming">
+                        <img src="images/data.jpg" alt="">
+                        <p class="padding-for-course-card label-course-color">Programming</p>
+                        <h1>Become a Data Scientist: Building a Prediction app</h1>
                         <p class="padding-for-course-card description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, velit.</p>
                         <div class="creator padding-for-course-card">
                             <img src="images/user1.png" alt="">
@@ -233,10 +233,10 @@
                         </div>
                     </div>
 
-                    <div class="course-card hover-this">
-                        <img src="images/course6.png" alt="">
-                        <p class="padding-for-course-card label-course-color">Microsoft Software</p>
-                        <h1>Canva For Beginners: Create Stunning Design</h1>
+                    <div class="course-card hover-this" id="programming">
+                        <img src="images/frontend.jpg" alt="">
+                        <p class="padding-for-course-card label-course-color">Programming</p>
+                        <h1>Frontend Development Mastery Course</h1>
                         <p class="padding-for-course-card description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, velit.</p>
                         <div class="creator padding-for-course-card">
                             <img src="images/user1.png" alt="">
@@ -252,10 +252,10 @@
                         </div>
                     </div>
 
-                    <div class="course-card hover-this">
-                        <img src="images/course7.png" alt="">
-                        <p class="padding-for-course-card label-course-color">Microsoft Software</p>
-                        <h1>Microsoft Excel Software Fundamentals</h1>
+                    <div class="course-card hover-this" id="ai">
+                        <img src="images/chagpt.jpg" alt="">
+                        <p class="padding-for-course-card label-course-color">AI Software</p>
+                        <h1>Become a prompt master : A Chatgpt course</h1>
                         <p class="padding-for-course-card description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, velit.</p>
                         <div class="creator padding-for-course-card">
                             <img src="images/user1.png" alt="">
@@ -271,10 +271,10 @@
                         </div>
                     </div>
 
-                    <div class="course-card hover-this">
-                        <img src="images/course9.png" alt="">
-                        <p class="padding-for-course-card label-course-color">Microsoft Software</p>
-                        <h1>Adobe PhotoShop CC: Social Media Ads</h1>
+                    <div class="course-card hover-this" id="smartapp">
+                        <img src="images/home.png" alt="">
+                        <p class="padding-for-course-card label-course-color">Smart App</p>
+                        <h1>Home Automation Course for Beginners</h1>
                         <p class="padding-for-course-card description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, velit.</p>
                         <div class="creator padding-for-course-card">
                             <img src="images/user1.png" alt="">
@@ -432,5 +432,6 @@
         </footer>
     </div>
     <script src="signup.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

@@ -95,6 +95,15 @@ body{
     color: #fff;
     border: none;
 }
+#accept{
+    padding: 5px 40px;
+    border-radius: 7px;
+    margin: 0 7px 20px;
+    font-size: 16px;
+    background-color: rgb(108,100,245);
+    color: #fff;
+    border: none;
+}
 @media (max-width:800px) {
     #head{ 
         margin: 50px 30px;

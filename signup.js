@@ -1,5 +1,6 @@
 document.getElementById("signup").addEventListener("click", accessHTML);
 document.getElementById("signupDetails").addEventListener("click", putDetails);
+document.getElementById("loginPage").addEventListener("click", gotologin);
 
 let username, email, password;
 
@@ -9,6 +10,10 @@ let username, email, password;
 function accessHTML() {
     window.location.href = "signup.html";
 }
+function gotologin(){
+    window.location.href = 'login.html';
+}
+
 
 
 function putDetails(){
