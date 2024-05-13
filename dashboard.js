@@ -18,3 +18,7 @@ function logoutPage(){
     window.location.href = 'index.html';
 }
 
+
+document.getElementById('courses').addEventListener('click', () => {
+    window.location.href = 'courses.html';
+})

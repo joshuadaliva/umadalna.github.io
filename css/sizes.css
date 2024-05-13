@@ -2,6 +2,10 @@
     .navigation{
         padding: 0px 30px;
     }
+    #pads{
+        padding: 20px 80px;
+    }
+    
     .nav-links{
         visibility: hidden;
         height: 5px;
@@ -92,6 +96,9 @@
     .coffee-banner1{
         max-width: 50%;
     }
+    #pads{
+        padding: 0px 50px;
+    }
 }
 @media (max-width:720px) {
     .top-instructor{
@@ -131,6 +138,9 @@
     }
     .btn1{
         margin-left: -10px;
+    }
+    #pads{
+        padding: 20px 50px;
     }
     
     
@@ -207,10 +217,17 @@
         padding: 0;
         margin: 1rem -0.4rem;
     }
+    .category-name h1{
+        font-size: 1.2rem;
+        padding: 0px 20px;
+    }
     .sections{
         padding: 0px 20px;
     }
     .signup-card{
+        padding: 0px 50px;
+    }
+    #pads{
         padding: 0px 50px;
     }
     
@@ -305,6 +322,9 @@
     }
     .main-content {
         margin-top: 0;
+    }
+    #pads{
+        padding: 20px 20px;
     }
 }
 

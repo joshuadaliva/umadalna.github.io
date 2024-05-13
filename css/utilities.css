@@ -26,6 +26,7 @@
     justify-content: right;
 }
 .h1-font-2rem{
+    display: flex;
     font-size: 2rem;
     margin-top: 2rem;
 }
