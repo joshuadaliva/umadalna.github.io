@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     box-shadow: var(--box-shadow);
     padding: 10px 70px;
+    border-bottom: 1px solid #ccc;
 }
 .logo-img-description{
     display: flex;

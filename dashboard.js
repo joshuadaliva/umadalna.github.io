@@ -12,7 +12,7 @@ document.getElementById('logout').style.color = 'white';
 document.getElementById('logout').style.padding = '6px 15px';
 
 document.getElementById('logout').addEventListener('click', logoutPage);
-
+ 
 function logoutPage(){
     localStorage.clear();
     window.location.href = 'index.html';
@@ -21,4 +21,7 @@ function logoutPage(){
 
 document.getElementById('courses').addEventListener('click', () => {
     window.location.href = 'courses.html';
+})
+document.getElementById('continue').addEventListener('click', ()=> {
+    window.location.href = 'takingcourse.html';
 })
