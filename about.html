@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup</title>
-    <link rel="stylesheet" href="css/signup.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/sizes.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/nav-bar.css">
-    <link rel="stylesheet" href="css/utilities.css">
 </head>
 <body>
+    
     <nav class="nav-bar">
         <div class="logo-img-description">
             <img src="images/logo.png" alt="" class="preferred-icon-size logo">
             <h1>UmadalNa</h1>
         </div>
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li> 
+            <li><a href="index.html">Home</a></li>
             <li><a href="courses.html">Courses</a></li>
-            <li><a href="about.html">About</a></li>   
+            <li><a href="">About</a></li>   
             <li><a href="#instructor">Instructors</a></li>
             <li><a href="#contact">Contact</a></li>
             <li><button id="loginPage">Login</button></li>
@@ -27,37 +28,42 @@
         </ul>
     </nav>
 
+    <section class="about">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>Welcome to UmadalNa! We are dedicated to providing top-notch e-learning resources to help you master various applications and programming languages. Whether you are a beginner or looking to advance your skills, our comprehensive courses are designed to cater to all levels of learners.</p>
+            
+            <div class="website">
+                <h2>About UmadalNa</h2>
+                <p>UmadalNa is your one-stop destination for learning and mastering a variety of applications and programming languages. Our platform offers a wide range of courses, from beginner tutorials on popular tools like Canva to advanced programming courses in languages such as Python, JavaScript, and more. Our interactive lessons, practical exercises, and real-world projects ensure that you gain hands-on experience and valuable skills that you can apply immediately.</p>
+                <p>Our platform is designed to be user-friendly and accessible, with a focus on delivering high-quality content that is both engaging and informative. We are committed to helping you achieve your learning goals and advance your career.</p>
+            </div>
 
-
-    
-    <div class="signup-card">
-        <div class="sign1">
-            <img src="images/signup.png" alt="">
+            <div class="team">
+                <h2>Our Team</h2>
+                <div class="team-member">
+                    <img src="images/instructor6.png" alt="Team Member 1">
+                    <h3>Joshua Daliva</h3>
+                    <p>Founder & Instructor</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/instructor5.png" alt="Team Member 2">
+                    <h3>Kenneth Ellorde</h3>
+                    <p>Lead Developer & Instructor</p>
+                </div>
+                <div class="team-member">
+                    <img src="images/instructor3.png" alt="Team Member 3">
+                    <h3>Frank Estrellado</h3>
+                    <p>UI/UX Designer & Instructor</p>
+                </div>
+            </div>
+            
+            <div class="mission">
+                <h2>Our Mission</h2>
+                <p>At UmadalNa, our mission is to empower individuals through high-quality education and hands-on training. We believe that everyone should have the opportunity to learn and grow, regardless of their background or experience level.</p>
+            </div>
         </div>
-        <div class="sign2">
-            <h2>Sign Up</h2>
-            <div>
-                <label for="text">Enter your Name:</label><br>
-                <input type="text" placeholder="Enter your Full Name" id="name" required ><br>
-            </div>
-            <div>
-                <label for="email">Your Email:</label><br>
-                <input type="email" placeholder="Enter your email address" id="email" required ><br>
-            </div>
-            <div>
-                <label for="password">Your Password:</label><br>
-                <input type="password" placeholder="Enter your Password" id="password" required ><br>
-            </div>
-            <button id="signupDetails" type="submit">Sign Up</button>
-        </div>
-    </div>
-
-
-
-
-
-
-
+    </section>
 
     <footer class="footer">
         <div class="item margin-header-footer">
@@ -110,8 +116,6 @@
         </div>
         
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/js-sha256"></script>
-    <script src="signup.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 </html>
