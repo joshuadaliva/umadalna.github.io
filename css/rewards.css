@@ -192,3 +192,14 @@ button{
         transform: rotate(360deg);
     }
 }
+
+
+.Crownpoints{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.Crownpoints img{
+    width: 35px;
+    height: 35px;
+}

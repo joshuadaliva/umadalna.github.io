@@ -12,6 +12,11 @@ if (localStorage.getItem('loginStatus')) {
     }
 }
 
+if (!localStorage.getItem('loginStatus')) {
+    window.location.href = 'login.html';
+}
+
+
 document.getElementById('claim').addEventListener('click', () =>{
     let timerInterval;
         Swal.fire({
